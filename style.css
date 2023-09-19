@@ -1,0 +1,79 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+body {
+    padding: 0 32px;
+}
+
+.header {
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+.phoneNumber {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header_container {
+    display: flex;
+    gap: 220px;
+}
+
+.headline {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    width: 794px;
+    text-transform: uppercase;
+}
+
+.image {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    height: 809px;
+}
+
+.imageLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.imgSmall {
+    width: 329px;
+}
+
+.text {
+    max-width: 445px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headlineBlock {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.orderProject {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    color: #212529;
+}
