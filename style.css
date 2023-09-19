@@ -77,3 +77,43 @@ body {
     text-decoration: underline;
     color: #212529;
 }
+.section_two {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headlineMain {
+    font-family: Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    width: 562px;
+}
+
+.about {
+    width: 679px;
+}
+
+.paragraph {
+    width: 450px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 16px;
+}
+
+.info {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400; 
+    margin-top: 24px;
+}
+
+.information {
+    margin-top: 20px;
+}
+
+.infoP {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 146px;
+}
