@@ -117,3 +117,53 @@ body {
     font-size: 16px;
     width: 146px;
 }
+
+.aboutProject {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 325px;
+    max-height: 44px;
+}
+
+.fourBlocks {
+    display: flex;
+    width: 678px;
+    justify-content: space-between;
+    margin: 48px 0;
+}
+
+.headlineName {
+    font-family: Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: 400; 
+    width: 328px;
+}
+
+.textInfo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    width: 329px;
+}
+
+.headlineMain3 {
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.section_three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 142px;
+}
+
+.section_four {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pictureRoom{
+    margin-bottom: 20px;
+}
+
