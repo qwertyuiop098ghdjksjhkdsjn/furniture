@@ -20,6 +20,10 @@ body {
     justify-content: space-between;
 }
 
+.burger {
+    display: none;
+}
+
 .navigation {
     display: flex;
     flex-direction: column;
@@ -77,6 +81,11 @@ body {
     text-decoration: underline;
     color: #212529;
 }
+
+.Media {
+    display: none;
+}
+
 .section_two {
     margin-top: 120px;
     display: flex;
@@ -88,6 +97,10 @@ body {
     font-weight: 400;
     font-size: 48px;
     width: 562px;
+}
+
+.headlineMedia {
+    display: none;
 }
 
 .about {
@@ -129,7 +142,8 @@ body {
     display: flex;
     width: 678px;
     justify-content: space-between;
-    margin: 48px 0;
+    padding: 36px 0 24px 0;
+    border-bottom: 1px solid black;
 }
 
 .headlineName {
@@ -163,7 +177,240 @@ body {
     justify-content: space-between;
 }
 
+.picturesAll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section_four h2 {
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 32px;
+}
+
 .pictureRoom{
+    width: calc(33.3% - 13.3px);
     margin-bottom: 20px;
 }
 
+.content {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.3%;
+    border: 1px solid black;
+    padding: 40px;
+}
+
+.section_five h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-top: 120px;
+}
+
+.content h4 {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form h2 {
+    font-family: Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.form p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+}
+
+.button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #212529;
+    color: white;
+    padding: 12px 20px;
+    align-self: flex-start;
+}
+
+.section_six {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    margin-top: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section_six img {
+    width: 40%;
+}
+
+.store img {
+    margin-top: 40px;
+    width: 121px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .header_container {
+        display: none;
+    }
+    
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+
+    .headline {
+        font-size: 32px;
+        width: auto;
+    }
+
+    .paragraph {
+        width: auto;
+    }
+
+    .bigPicture {
+        display: none;
+    }
+
+    .Desktop {
+        display: none;
+    }
+
+    .Media {
+        display: block;
+        margin-bottom: 24px;
+    }
+
+    .image {
+        height: auto;
+    }
+
+    .imgSmall {
+        width: 100%;
+    }
+
+    .text {
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+
+    .headlineMain {
+        display: none;
+    }
+
+    .headlineMedia {
+        display: block;
+        font-family: Helvetica, sans-serif;
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    .section_two {
+        flex-direction: column;
+        margin-top: 48px;
+    }
+
+    .about {
+        width: auto;
+    }
+
+    .info {
+        font-size: 24px;
+    }
+
+    .section_three {
+        flex-direction: column;
+    }
+
+    .fourBlocks {
+        flex-direction: column;
+        width: auto;
+    }
+
+    .headlineMain3 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .headlineName {
+        font-size: 24px;
+        width: auto;
+        margin-bottom: 16px;
+    }
+
+    .textInfo {
+        width: auto;
+    }
+
+    .section_three {
+        margin-top: 48px;
+    }
+
+    .section_four {
+        overflow: hidden;
+    }
+
+    .picturesAll {
+        flex-wrap: nowrap;
+        gap: 20px;
+        overflow-x: auto;
+        width: 100%;
+    }
+
+    .pictureRoom {
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .headline {
+        font-size: 25px;
+    }
+    
+    
+}
